@@ -15,7 +15,8 @@
     <!-- swiper css -->
     <link rel="stylesheet" href="css/plugins/swiper.min.css">
     <!-- courtney css -->
-    <link rel="stylesheet" href="css/light-mode.css">
+    <link id="themeStylesheet" rel="stylesheet" href="css/light-mode.css">
+    
     <!-- page name -->
     <title>Louis An XR</title>
 
@@ -67,6 +68,8 @@
                 </div>
 
                 <div class="mil-top-panel-btns">
+                    <a href="javascript:void(0)" id="toggleTheme" style="margin-right: 15px;" data-no-swup ><i class="fa fa-lightbulb fa-lg" style="color:black"></i></a>
+                   
                     <a href="contact.html" class="mil-contact-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
                             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -84,7 +87,8 @@
 
             <!-- left bar -->
             <div class="mil-left-panel">
-
+              
+              
                 <div class="mil-page-name mil-upper mil-dark">Homepage</div>
 
                 <ul class="mil-social-icons">
@@ -297,6 +301,8 @@
     <script src="js/plugins/parallax.js"></script>
     <!-- courtney js -->
     <script src="js/main.js"></script>
+    <!-- switch light/dark mode -->
+    <script src="js/switchmode.js"></script>
 
 </body>
 
